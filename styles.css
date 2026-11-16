@@ -43,6 +43,7 @@ padding: 0;
 margin: 0 1rem; 
 
 overflow: hidden; 
+color: black;
 
 } 
 
@@ -150,7 +151,7 @@ header {
     text-align: center;
     font-size: 36px;
     font-weight: bold;
-    color: #422008;
+    color: black;
     padding: 25px;
     font-family: Georgia, serif;
 }
