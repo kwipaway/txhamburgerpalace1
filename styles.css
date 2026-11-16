@@ -52,12 +52,17 @@ color: black;
     font-family: Georgia, sans-serif;
     font-size: 20px;
 }
+.menu a {
+    display: inline-block;
+    padding: 10px 20px;
+    border: 2px solid transparent;
+    border-radius: 30px;
+    transition: all 0.3s ease;
+}
 .menu a:hover {
-   border-color: transparent;
-    text-decoration: underline;
-    text-underline-offset: .35rem;
-    text-decoration-thickness: 3px;
-    border-color:var(--ink);
+   border-color: black;
+   background-color: white;
+   color: black;
 }
 
 .menu-button-container { 
