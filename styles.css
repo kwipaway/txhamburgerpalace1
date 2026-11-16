@@ -52,7 +52,12 @@ color: black;
     font-family: Georgia, sans-serif;
     font-size: 20px;
 }
-
+nav a:hover {
+   border-color: transparent;
+    text-decoration: underline;
+    text-underline-offset: .35rem;
+    text-decoration-thickness: 3px;
+}
 
 .menu-button-container { 
 
