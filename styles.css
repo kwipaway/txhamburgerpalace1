@@ -46,8 +46,13 @@ overflow: hidden;
 color: black;
 
 } 
+.menu > li > a {
+    color: black;
+    text-decoration: none;
+    font-family: Georgia, sans-serif;
+    font-size: 20px;
+}
 
- 
 
 .menu-button-container { 
 
