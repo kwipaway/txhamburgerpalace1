@@ -57,6 +57,7 @@ color: black;
     text-decoration: underline;
     text-underline-offset: .35rem;
     text-decoration-thickness: 3px;
+    border-color:var(--ink);
 }
 
 .menu-button-container { 
