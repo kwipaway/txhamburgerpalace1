@@ -167,13 +167,29 @@ header {
     text-align: center;
     font-size: 36px;
     font-weight: bold;
-    color: black;
+    color: #4682B4;
     padding: 25px;
     font-family: Georgia, serif;
+}
+header .red-letter {
+    color: #B44343;
 }
 body {
     margin: 0;
     padding: 0;
     background-color: #F3EDE3;
     font-family: Arial, sans-serif;
+}
+
+.home-image {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 60px;
+}
+.home-image img {
+    width: 75%;
+    max-width: 900px;
+    height: auto;
+    border-radius: 10px;
 }
