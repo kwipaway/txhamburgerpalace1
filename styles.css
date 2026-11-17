@@ -206,6 +206,10 @@ body {
 .home-image {
     flex: 1;
     min-width: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
 }
 .home-image img {
     display: block;
