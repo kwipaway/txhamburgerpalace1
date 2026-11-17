@@ -49,7 +49,7 @@ color: black;
 .menu > li > a {
     color: black;
     text-decoration: none;
-    font-family: Georgia, sans-serif;
+    font-family: "Comic Sans MS", cursive, sans-serif;
     font-size: 20px;
 }
 .menu a {
@@ -215,4 +215,26 @@ body {
     border-radius: 16px;
     box-shadow: 0px 10px 25px rgba(0, 0, 0, 0.25);
     box-sizing: border-box;
+}
+.btns {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+.btn {
+    display: inline-block;
+    padding: 12px 25px;
+    border: 2px solid #B44343;
+    background-color: transparent;
+    color: white;
+    text-decoration: none;
+    border-radius: 30px;
+    transition: all 0.3s ease;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    font-weight: bold;
+    font-size: 18px;
+}
+.btn:hover {
+    background-color: transparent;
+    color: #F3EDE3;
 }
