@@ -194,14 +194,14 @@ body {
 .home-text h1 {
     font-size: 40px;
     color: #B44343;
-    font-family: "Comic Sans MS", cursive;
+    font-family: "Comic Sans MS", cursive, sans-serif;
 }
 .home-text p {
     font-size: 20px;
     color: black;
     line-height: 1.6;
-    font-family: "Impact", sans-serif;
-    font-weight: bold;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    font-weight: 700;
 }
 .home-image {
     flex: 1;
