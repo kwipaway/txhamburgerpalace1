@@ -194,12 +194,14 @@ body {
 .home-text h1 {
     font-size: 40px;
     color: #B44343;
-    font-family: "Alfa Slab One," "Rockwell", "Arial Black", serif;
+    font-family: "Comic Sans MS", cursive;
 }
 .home-text p {
     font-size: 20px;
     color: black;
     line-height: 1.6;
+    font-family: "Impact", sans-serif;
+    font-weight: bold;
 }
 .home-image {
     flex: 1;
