@@ -1,1 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Find the address, phone number, and hours for Texas Hamburger Palace in Houston, Texas.">
+    <title>Contact Us | Texas Hamburger Palace</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <nav class="top-nav" aria-label="Main navigation">
+        <header>
+            <span class="red-letter">T</span>exas
+            <span class="red-letter">H</span>amburger
+            <span class="red-letter">P</span>alace
+        </header>
 
+        <input id="menu-toggle" type="checkbox" aria-label="Toggle menu">
+        <label class="menu-button-container" for="menu-toggle">
+            <span class="menu-button"></span>
+        </label>
+
+        <ul class="menu">
+            <li><a href="home.html">Home</a></li>
+            <li><a href="menu.html">Menu</a></li>
+            <li><a href="aboutus.html">About Us</a></li>
+            <li><a href="contactus.html" aria-current="page">Contact Us</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <h1>Contact Us</h1>
+
+        <section>
+            <h2>Visit Us</h2>
+            <address>
+                5757 Ranchester Dr, Suite 1700<br>
+                Houston, TX 77036
+            </address>
+            <p> Located at the corner of Harwin and Ranchester</p>
+            <p>
+               <a class="btn"
+   href="https://www.google.com/maps/dir/?api=1&amp;destination=Texas+Hamburger+Palace%2C+5757+Ranchester+Dr%2C+Houston%2C+TX+77036"
+   target="_blank"
+   rel="noopener">
+    Get Directions
+</a>
+            </p>
+        </section>
+
+
+        <section>
+        
+    <h2>Takeout and Catering</h2>
+    <p>
+        To place a takeout order or ask about catering for your event,
+        call <a href="tel:+17139815151">(713) 981-5151</a>.
+    </p>
+</section>
+<section>
+    <h2 id="hours-heading">Hours of Operation</h2>
+    <table aria-labelledby="hours-heading">
+                <thead>
+                    <tr>
+                        <th scope="col">Day</th>
+                        <th scope="col">Hours</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <th scope="row">Monday–Friday</th>
+                        <td>10:30 AM–5:00 PM</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Saturday</th>
+                        <td>11:00 AM–4:00 PM</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Sunday</th>
+                        <td>Closed</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+    </main>
+</body>
+</html>
