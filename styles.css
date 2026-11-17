@@ -181,17 +181,36 @@ body {
     font-family: Arial, sans-serif;
 }
 
-.home-image {
-    display:flex;
-    justify-content: center;
+.home-content {
+    display: flex;
     align-items: center;
-    margin-top: 60px;
+    justify-content: space-between;
+    gap: 40px;
+    padding: 60px 5%;
+}
+.home-text {
+    flex: 1;
+}
+.home-text h1 {
+    font-size: 40px;
+    color: #B44343;
+    font-family: "Alfa Slab One," "Rockwell", "Arial Black", serif;
+}
+.home-text p {
+    font-size: 20px;
+    color: black;
+    line-height: 1.6;
+}
+.home-image {
+    flex: 1;
+    min-width: 0;
 }
 .home-image img {
-    width: 75%;
-    max-width: 1200px;
+    display: block;
+    width: 100%;
     height: auto;
     border: 6px solid #ffffff;
     border-radius: 16px;
     box-shadow: 0px 10px 25px rgba(0, 0, 0, 0.25);
+    box-sizing: border-box;
 }
