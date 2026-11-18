@@ -195,13 +195,22 @@ body {
     justify-content: center;
     padding: 60px 5%;
 }
-.home-text {
-    flex: 1;
+.home-content .home-text {
+    background-color: rgba(243, 237, 227, 0.90);
+    padding: 40px;
+    border-radius: 20px;
+    max-width: 560px;
+    width: 100%;
+    box-sizing: border-box;
+
+    text-align: center;
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.3);
 }
 .home-text h1 {
     font-size: 40px;
     color: #B44343;
     font-family: "Comic Sans MS", cursive, sans-serif;
+    margin-bottom: 15px;
 }
 .home-text p {
     font-size: 20px;
