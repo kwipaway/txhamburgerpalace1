@@ -191,20 +191,22 @@ body {
 .home-content {
     min-height: 80vh;
     display: flex;
-    align-items: center;
+    flex-direction: column;
+    align-items: flex-end;
     justify-content: center;
-    padding: 60px 5%;
+    padding: 60px 8%;
+    box-sizing: border-box;
 }
 .home-content .home-text {
-    background-color: rgba(243, 237, 227, 0.90);
-    padding: 40px;
-    border-radius: 20px;
-    max-width: 560px;
+    background-color: #F3EDE3;
+    padding: 40px 40px 10px;
+    border-radius: 20px 20px 0 0;
+    max-width: 550px;
     width: 100%;
     box-sizing: border-box;
 
     text-align: center;
-    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.3);
+    box-shadow: 12px 12px 30px rgba(0, 0, 0, 0.6);
 }
 .home-text h1 {
     font-size: 40px;
@@ -220,32 +222,28 @@ body {
     font-weight: 700;
 }
 .home-image {
-    flex: 1;
-    min-width: 0;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 15px;
+    display: contents;
 }
 .home-image img {
     display: none;
-    width: 100%;
-    height: auto;
-    border: 6px solid #ffffff;
-    border-radius: 16px;
-    box-shadow: 0px 10px 25px rgba(0, 0, 0, 0.25);
-    box-sizing: border-box;
 }
 .btns {
-    display: flex;
-    justify-content: center;
-    gap: 20px;
+   display: flex;
+   justify-content: center;
+   gap: 15px;
+   background-color: #F3EDE3;
+   padding: 10px 30px 35px;
+   max-width: 550px;
+   width: 100%;
+   box-sizing: border-box;
+   border-radius: 0 0 20px 20px;
+   box-shadow: 10px 18px 25px rgba(0, 0, 0, 0.5);
 }
 .btn {
     display: inline-block;
     padding: 12px 25px;
     border: 2px solid #B44343;
-    background-color: transparent;
+    background-color: #F3EDE3;
     color: black;
     text-decoration: none;
     border-radius: 30px;
@@ -255,7 +253,7 @@ body {
     font-size: 18px;
 }
 .btn:hover {
-    background-color: transparent;
+    background-color: #B44343;
     color: #F3EDE3;
 }
 
