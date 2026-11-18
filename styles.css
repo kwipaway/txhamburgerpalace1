@@ -182,10 +182,15 @@ body {
 }
 
 .home-content {
+    background-image: url("images/restaurant.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    min-height: 80vh;
     display: flex;
     align-items: center;
-    justify-content: space-between;
-    gap: 40px;
+    justify-content: center;
     padding: 60px 5%;
 }
 .home-text {
@@ -212,7 +217,7 @@ body {
     gap: 15px;
 }
 .home-image img {
-    display: block;
+    display: none;
     width: 100%;
     height: auto;
     border: 6px solid #ffffff;
