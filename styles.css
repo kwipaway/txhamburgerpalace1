@@ -306,6 +306,7 @@ body {
     font-size: 45px;
     color: #B44343;
     margin-bottom: 40px;
+     -webkit-text-stroke: 1px black;
 }
 
 .contact-content section {
@@ -365,9 +366,4 @@ body {
 .contact-content .btn:hover {
     background-color: white;
     color: #B44343;
-}
-body.contact-page main.contact-content h1 {
-    color: white !important;
-    -webkit-text-stroke: 3px black !important;
-    text-shadow: 2px 2px 0 black;
 }
