@@ -366,3 +366,7 @@ body {
     background-color: white;
     color: #B44343;
 }
+.contact-page .content-content h1 {
+    color: white;
+    -webkit-text-stroke: 2px black;
+}
