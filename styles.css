@@ -368,3 +368,57 @@ body {
     background-color: white;
     color: #B44343;
 }
+.aboutus-content {
+    min-height: calc(100vh - 125px);
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 80px 20px;
+    box-sizing: border-box;
+}
+
+.aboutus-content .body {
+    background-color: rgba(15, 49, 38, 0.90);
+    max-width: 850px;
+    width: 100%;
+    padding: 45px;
+    border-radius: 18px;
+    text-align: center;
+    color: white;
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.4);
+    box-sizing: border-box;
+}
+
+.aboutus-content h1 {
+    font-family: Georgia, serif;
+    font-size: 48px;
+    color: #F5E6C8;
+    margin: 0 0 25px;
+    text-shadow: 2px 2px 4px black;
+}
+
+.aboutus-content p {
+    font-size: 19px;
+    line-height: 1.8;
+    color: white;
+}
+
+.aboutus-content .yelp-link {
+    margin-top: 30px;
+}
+
+.aboutus-content .yelp-link a {
+    display: inline-block;
+    background-color: #B83B3B;
+    color: white;
+    padding: 12px 22px;
+    border-radius: 8px;
+    text-decoration: none;
+    font-weight: bold;
+    margin-top: 10px;
+    transition: background-color 0.3s ease;
+}
+
+.aboutus-content .yelp-link a:hover {
+    background-color: #922C2C;
+}
