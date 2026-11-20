@@ -425,3 +425,331 @@ body {
 .aboutus-content .yelp-link a:hover {
     opacity: 0.8;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+/* =====================================
+   GENERAL RESPONSIVE IMPROVEMENTS
+   ===================================== */
+
+html {
+    box-sizing: border-box;
+}
+
+*, *::before, *::after {
+    box-sizing: inherit;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Yelp on left, Facebook on right */
+.aboutus-content .yelp-link {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+}
+
+.aboutus-content .yelp-link > p {
+    margin: 0;
+}
+
+.aboutus-content .yelp-link > p:first-child {
+    flex-basis: 100%;
+    text-align: center;
+}
+
+.aboutus-content .yelp-link > p:nth-child(2) a {
+    background-color: #B83B3B;
+}
+
+.aboutus-content .yelp-link > p:nth-child(3) a {
+    background-color: #1877F2;
+}
+
+.aboutus-content .yelp-link a {
+    margin-top: 0;
+}
+
+/* =====================================
+   IPADS AND TABLETS
+   ===================================== */
+
+@media screen and (max-width: 1024px) {
+
+    /* Navigation */
+    .top-nav {
+        padding: 15px 20px;
+        height: auto;
+        min-height: 90px;
+    }
+
+    .top-nav header {
+        font-size: 27px;
+        padding: 10px;
+    }
+
+    .menu-button-container {
+        display: flex;
+    }
+
+    .top-nav {
+        position: relative;
+    }
+
+    .top-nav .menu {
+        display: none;
+        position: absolute;
+        top: 100%;
+        left: 0;
+        right: 0;
+        flex-direction: column;
+        background-color: #12372d;
+        padding: 12px 0;
+        z-index: 1000;
+    }
+
+    #menu-toggle:checked ~ .menu {
+        display: flex;
+    }
+
+    .top-nav .menu li {
+        margin: 0;
+        width: 100%;
+        text-align: center;
+    }
+
+    .top-nav .menu a {
+        display: block;
+        padding: 15px;
+        color: white;
+    }
+
+    .top-nav .menu a:hover {
+        color: black;
+    }
+
+    /* Home page */
+    .home-content {
+        min-height: auto;
+        padding: 50px 5%;
+        align-items: center;
+    }
+
+    .home-content .home-text,
+    .btns {
+        max-width: 650px;
+    }
+
+    .services {
+        position: static;
+        transform: none;
+        width: 100%;
+        max-width: 650px;
+        margin: 25px auto;
+    }
+
+    /* Contact Us */
+    .contact-content {
+        padding: 40px 25px;
+    }
+
+    .contact-content h1 {
+        font-size: 40px;
+    }
+
+    .contact-content section {
+        padding: 25px;
+    }
+
+    /* About Us */
+    .aboutus-content {
+        padding: 50px 25px;
+    }
+
+    .aboutus-content .body {
+        max-width: 700px;
+        padding: 35px;
+    }
+
+    .aboutus-content h1 {
+        font-size: 40px;
+    }
+
+    .aboutus-content p {
+        font-size: 18px;
+    }
+
+    /* Chatbot window */
+    #dify-chatbot-bubble-window {
+        max-width: calc(100vw - 30px) !important;
+        max-height: calc(100dvh - 30px) !important;
+    }
+}
+
+/* =====================================
+   MOBILE PHONES
+   ===================================== */
+
+@media screen and (max-width: 600px) {
+
+    /* Navigation */
+    .top-nav {
+        min-height: 75px;
+        padding: 10px 15px;
+    }
+
+    .top-nav header {
+        font-size: 19px;
+        padding: 5px;
+        text-align: left;
+    }
+
+    .top-nav .menu a {
+        font-size: 17px;
+    }
+
+    /* Background image */
+    body {
+        background-attachment: scroll;
+        background-position: center;
+    }
+
+    /* Home */
+    .home-content {
+        padding: 30px 15px;
+    }
+
+    .home-content .home-text {
+        padding: 25px 20px 10px;
+    }
+
+    .home-text h1 {
+        font-size: 30px;
+    }
+
+    .home-text p {
+        font-size: 16px;
+    }
+
+    .btns {
+        flex-direction: column;
+        padding: 10px 20px 25px;
+        align-items: stretch;
+        gap: 12px;
+    }
+
+    .btns .btn {
+        text-align: center;
+        font-size: 16px;
+    }
+
+    .services {
+        padding: 25px 20px;
+        margin: 20px auto;
+    }
+
+    .services h2 {
+        font-size: 25px;
+    }
+
+    .services p {
+        font-size: 16px;
+    }
+
+    /* Contact Us */
+    .contact-content {
+        padding: 25px 15px;
+    }
+
+    .contact-content h1 {
+        font-size: 32px;
+        margin-bottom: 25px;
+    }
+
+    .contact-content section {
+        padding: 20px 15px;
+    }
+
+    .contact-content h2 {
+        font-size: 23px;
+    }
+
+    .contact-content p,
+    .contact-content address {
+        font-size: 16px;
+        overflow-wrap: anywhere;
+    }
+
+    /* Allow wide tables to scroll */
+    .contact-content table {
+        display: block;
+        overflow-x: auto;
+        -webkit-overflow-scrolling: touch;
+    }
+
+    .contact-content th,
+    .contact-content td {
+        padding: 10px;
+        font-size: 14px;
+    }
+
+    /* About Us */
+    .aboutus-content {
+        padding: 30px 15px;
+        min-height: auto;
+    }
+
+    .aboutus-content .body {
+        padding: 25px 18px;
+        border-radius: 12px;
+    }
+
+    .aboutus-content h1 {
+        font-size: 32px;
+    }
+
+    .aboutus-content p {
+        font-size: 16px;
+        line-height: 1.6;
+    }
+
+    /* Yelp and Facebook stacked */
+    .aboutus-content .yelp-link {
+        flex-direction: column;
+        align-items: center;
+        gap: 12px;
+    }
+
+    .aboutus-content .yelp-link > p {
+        width: 100%;
+        text-align: center;
+    }
+
+    .aboutus-content .yelp-link a {
+        display: block;
+        width: 100%;
+        max-width: 260px;
+        margin: 0 auto;
+        text-align: center;
+        padding: 12px 15px;
+    }
+
+    /* Chatbot */
+    #dify-chatbot-bubble-window {
+        width: calc(100vw - 20px) !important;
+        max-height: 85dvh !important;
+    }
+}
