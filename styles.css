@@ -756,17 +756,35 @@ img {
     }
 }
 
-/* Comic Neue for phones AND iPads */
+/* Comic Neue for phones and iPads */
 @media screen and (max-width: 1366px) {
-    .menu a,
+
+    /* Navigation */
+    .top-nav .menu a,
+    .top-nav header {
+        font-family: "Comic Neue", cursive, sans-serif !important;
+    }
+
+    /* Home page */
     .home-text h1,
     .home-text p,
     .btn,
     .services h2,
-    .services p,
+    .services p {
+        font-family: "Comic Neue", cursive, sans-serif !important;
+    }
+
+    /* Contact Us */
     .contact-content h2,
     .contact-content p,
     .contact-content address {
-        font-family: "Comic Neue", cursive, sans-serif;
+        font-family: "Comic Neue", cursive, sans-serif !important;
+    }
+
+    /* About Us */
+    .aboutus-content h1,
+    .aboutus-content p,
+    .aboutus-content a {
+        font-family: "Comic Neue", cursive, sans-serif !important;
     }
 }
