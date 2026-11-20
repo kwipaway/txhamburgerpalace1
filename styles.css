@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Comic+Neue:wght@400;700&display=swap');
+
 .top-nav { 
 
 display: flex; 
@@ -751,5 +753,19 @@ img {
     #dify-chatbot-bubble-window {
         width: calc(100vw - 20px) !important;
         max-height: 85dvh !important;
+    }
+}
+
+@media screen and (min-width: 601px) and (max-width: 1024px) {
+    .menu a,
+    .home-text h1,
+    .home-text p,
+    .btn,
+    .services h2,
+    .services p,
+    .contact-content h2,
+    .contact-content p,
+    .contact-content address {
+        font-family: "Comic Neue", cursive, sans-serif;
     }
 }
