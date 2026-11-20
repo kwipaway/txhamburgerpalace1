@@ -756,7 +756,8 @@ img {
     }
 }
 
-@media screen and (min-width: 601px) and (max-width: 1024px) {
+/* Comic Neue for phones AND iPads */
+@media screen and (max-width: 1366px) {
     .menu a,
     .home-text h1,
     .home-text p,
