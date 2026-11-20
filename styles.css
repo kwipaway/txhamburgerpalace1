@@ -422,3 +422,6 @@ body {
 .aboutus-content .yelp-link a:hover {
     background-color: #922C2C;
 }
+.aboutus-content .yelp-link a:hover {
+    opacity: 0.8;
+}
