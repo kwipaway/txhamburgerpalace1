@@ -788,3 +788,8 @@ img {
         font-family: "Comic Neue", cursive, sans-serif !important;
     }
 }
+@media screen and (max-width: 1366px) {
+    .top-nav {
+        background: hotpink !important;
+    }
+}
